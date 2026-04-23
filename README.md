@@ -38,6 +38,12 @@ The prompt utilizes **Role-Based Instruction** and **Negative Constraints**:
 - **Vocabulary Control:** Provided a strict list of 10 available legal instruments to prevent the AI from "inventing" document types.
 - **Urgency Logic:** Hardcoded business rules into the prompt (e.g., age 65+ or business owners = High Urgency) to ensure the triage remains objective and consistent.
 
+### Structured Output Parser & Raw LLM Response
+
+Rather than relying solely on prompt instructions for JSON formatting, the workflow uses n8n's **Structured Output Parser** with a defined JSON schema. This enforces the output contract at the framework level — if Gemini returns malformed JSON, the `autoFix: true` setting triggers an automatic retry rather than terminating the workflow.
+
+A side effect of this approach is that Gemini responds via a **function call** rather than free-text generation, meaning the raw `text` field in the LLM response is empty (`"text": ""`). This is expected behaviour, not an error. The structured result is returned through the function call itself. The full unedited model interaction (including token usage) is documented in the evidence log.
+
 ### Two-Trigger System
 
 To ensure 100% reliability, the workflow uses two triggers:
