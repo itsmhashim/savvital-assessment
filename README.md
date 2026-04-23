@@ -65,7 +65,7 @@ To ensure safety and professional oversight, I'd have designed a **Pre-Approval 
 
 ## Video Walkthrough
 
-**[Watch the n8n Workflow Walkthrough on Loom →](https://www.loom.com/share/03b0d98aac28420b89bc0d55aef3f5b1)**
+[![Watch the n8n Workflow Walkthrough on Loom](<Task 1/loom_thumbnail.png>)](https://www.loom.com/share/03b0d98aac28420b89bc0d55aef3f5b1)
 
 ## Task 1 Files
 
