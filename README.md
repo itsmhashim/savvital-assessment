@@ -88,7 +88,7 @@ A self-contained interactive dashboard built with **Python + Plotly** using the 
 ```bash
 # Install dependencies
 conda install plotly pandas
-conda install -c plotly kaleido   # optional — for PDF export
+pip install kaleido   # optional — for PDF export
 
 # Generate dashboard
 cd "Task 2"
@@ -137,4 +137,5 @@ The five metrics were selected to tell a complete operational story — from pip
 |---|---|
 | [`dashboard.py`](<Task 2/dashboard.py>) | Python script — run to regenerate HTML and PDF |
 | [`dashboard.html`](<Task 2/dashboard.html>) | Self-contained interactive dashboard (open in browser) |
+| [`dashboard.pdf`](<Task 2/dashboard.pdf>) | Static PDF export of the dashboard |
 | [`dataset/`](<Task 2/dataset/>) | CRM Sales Opportunities dataset (Kaggle) |
