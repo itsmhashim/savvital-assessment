@@ -1,0 +1,65 @@
+[
+    {
+      "output": {
+        "client_name": "John Sterling",
+        "recommended_instruments": [
+          "Last Will and Testament",
+          "Revocable Living Trust",
+          "Pour-Over Will",
+          "Healthcare Directive (Living Will)",
+          "Durable Power of Attorney (Financial)",
+          "Healthcare Power of Attorney",
+          "Beneficiary Designations Review",
+          "Business Succession Plan"
+        ],
+        "rationale": "Given Mr. Sterling's age, business ownership, and family responsibilities, a comprehensive plan is essential to ensure asset protection, efficient business succession, and clear directives for medical and financial decision-making. The combination of trust-based planning and business strategy minimizes estate taxes and avoids lengthy probate.",
+        "urgency_flag": "High"
+      }
+    },
+    {
+      "output": {
+        "client_name": "Sarah Chen",
+        "recommended_instruments": [
+          "Last Will and Testament",
+          "Healthcare Directive (Living Will)",
+          "Durable Power of Attorney (Financial)",
+          "Healthcare Power of Attorney",
+          "Beneficiary Designations Review"
+        ],
+        "rationale": "As a young, single individual with minimal assets, Sarah requires basic foundational documents to ensure her healthcare and financial affairs are managed by a trusted person should she become incapacitated, along with ensuring her accounts have proper beneficiaries.",
+        "urgency_flag": "Low"
+      }
+    },
+    {
+      "output": {
+        "client_name": "Marcus Rivera",
+        "recommended_instruments": [
+          "Revocable Living Trust",
+          "Pour-Over Will",
+          "Healthcare Directive (Living Will)",
+          "Durable Power of Attorney (Financial)",
+          "Healthcare Power of Attorney",
+          "Beneficiary Designations Review",
+          "Guardianship Designation"
+        ],
+        "rationale": "Given the client's status as a divorced parent who owns property, it is essential to establish a trust-based plan to ensure asset protection and provide clear guardianship for minor children. Additionally, incapacity planning is critical to manage assets and healthcare decisions if he becomes unable to do so himself.",
+        "urgency_flag": "Medium"
+      }
+    },
+    {
+      "output": {
+        "client_name": "Elena Vance",
+        "recommended_instruments": [
+          "Revocable Living Trust",
+          "Pour-Over Will",
+          "Business Succession Plan",
+          "Healthcare Directive (Living Will)",
+          "Durable Power of Attorney (Financial)",
+          "Healthcare Power of Attorney",
+          "Beneficiary Designations Review"
+        ],
+        "rationale": "Given the client's age, business ownership, and parental status, comprehensive planning is necessary to ensure business continuity and the protection of her family's interests. A combination of trust-based planning, business succession planning, and incapacity documents provides a robust framework.",
+        "urgency_flag": "High"
+      }
+    }
+  ]

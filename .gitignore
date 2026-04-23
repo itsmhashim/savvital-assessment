@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project-specific
+CLAUDE.md
+
+# Assessment brief (root only — deliverable PDFs in Task 1/ and Task 2/ are kept)
+/*.docx
+/Ai Automation Strategist*.pdf
